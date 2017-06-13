@@ -1,0 +1,12 @@
+article header.article-meta{
+    background-color: #A5A69D;
+    background-image: url(../../media/quad/new-campus/new-campus.jpg);
+    background-size: cover;
+    background-position: 0% 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 300px;
+}

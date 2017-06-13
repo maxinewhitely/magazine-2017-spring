@@ -1,0 +1,13 @@
+article header.article-meta{
+    background-color: white;
+    background-image: url(../../media/features/institutional-inertia/supportinghands.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 0%;
+    height: 100%;
+    min-height: 1000px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 170px;
+    padding-bottom: none;
+}

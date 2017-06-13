@@ -1,0 +1,12 @@
+article header.article-meta{
+    background-color: #A5A69D;
+    background-image: url(../../media/pregame/life-advice/coverimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 0;
+    height: 100%;
+    min-height: 1000px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 650px;
+}

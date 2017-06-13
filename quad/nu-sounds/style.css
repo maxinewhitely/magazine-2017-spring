@@ -1,0 +1,44 @@
+article header.article-meta{
+    background-color: #A5A69D;
+    background-image: url(../../media/quad/nu-sounds/img1.jpg);
+    background-size: cover;
+    background-position: 30% 45%;
+    height: 100%;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 650px;
+}
+
+div.band {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.content {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+div.band-name {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div.band-desc {
+    margin-bottom: 20px;
+}
+
+div.interview {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 800px){
+    div.band {
+        flex-wrap: wrap;
+    }

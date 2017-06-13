@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+p.lead {
+  margin-bottom: 30px;
+}
+
+hr.wine-divide {
+  width: 50%;
+  color: black;
+  height: 2px;
+  z-index: 1000;
+  background-color: black;
+}
+
+div.wine-pack {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+div.wine-name {
+  text-align: center;
+  margin-right: 10px;
+  width: 25%;
+}
+
+p.wine-type {
+  font-family: 'Tangerine', cursive;
+  font-size: 2.4em;
+  font-weight: bold;
+  padding-right: 5px;
+  color: rgb(170, 0, 30);
+  line-height: 90%
+  /*white-space: nowrap;*/
+}
+
+p.wine-color {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: rgba(170, 0, 30, .5);
+  color: rgb(170, 0, 50);
+}
+
+div.wine-desc {
+  width: 70%;
+}
+
+article header.article-meta{
+    background-color: #E7DAD4;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+  filter: blur(0px);
+}
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 40; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 500px) {
+  article header.article-meta{
+    background-color: black;
+    background-size: cover;
+    background-position: 30% 0;
+    height: 100%;
+    min-height: 600px;
+    color: white;
+    text-shadow: 0 0 10px black;
+  }
+  video {
+    position: relative;
+    margin-top: 40px;
+  }
+}
+
+.IIV::-webkit-media-controls-play-button,
+.IIV::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+}

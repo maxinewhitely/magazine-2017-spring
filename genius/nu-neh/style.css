@@ -1,0 +1,105 @@
+article header.article-meta{
+    background-color: #A5A69D;
+    background-image: url(../../media/genius/nu-neh/img4.jpg);
+    background-size: 1000px;
+    background-position: 30% 0;
+    height: 100%;
+    min-height: 1000px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 650px;
+}
+
+div.photo-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: -50px;
+	margin-right: -50px;
+}
+
+figure#left-photo {
+	margin-right: 10px;
+}
+
+div.stats-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div.stat {
+	width: 50%;
+	text-align: center;
+	padding: 20px 10px 20px 10px;
+}
+
+p.text {
+	font-family: "Cabin", sans-serif;
+	font-weight: lighter;
+	font-size: 2em;
+	margin-bottom: 0;
+	line-height: 110%;
+}
+
+p.number {
+	font-family: "Raleway", sans-serif;
+	font-size: 3em;
+	margin-bottom: 0;
+	font-weight: bolder;
+}
+
+@media screen and (max-width: 800px) {
+	div.stats-container {
+	  	margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	p.text {
+		font-size: 1em;
+	}
+
+	p.number {
+		font-size: 1.5em;
+	}
+
+	div.photo-container {
+		flex-wrap: wrap;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	figure {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+
+div#stat1 {
+	width: 200%;
+	background-color: #dd5b4d;
+}
+
+div#stat2 {
+	background-color: #4ab19d;
+}
+
+div#stat3 {
+	background-color: #4e7aae;
+}
+
+div#stat4 {
+	background-color: #eec857;
+	padding-top: 40px;
+}
+
+div#stat5 {
+	background-color: #e07a46;
+	padding-top: 40px;
+}

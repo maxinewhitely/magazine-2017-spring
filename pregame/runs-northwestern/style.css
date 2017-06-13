@@ -1,0 +1,45 @@
+article header.article-meta{
+    background-color: #A5A69D;
+    background-image: url(../../media/pregame/runs-northwestern/money.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 0;
+    height: 100%;
+    min-height: 1000px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 650px;
+}
+
+div.person {
+	/*border-top-width: .25px;
+	border-top-color: rgba(0, 255, 50, .3);
+	border-top-style: solid;
+	width: 90%;*/
+	margin-top: 60px;
+}
+
+p.name {
+	display: inline-block;
+	font-family: "Raleway", sans-serif;
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-right: 15px;
+	margin-bottom: 0;
+}
+
+p.company {
+	display: inline-block;
+	text-transform: uppercase;
+	color: green;
+	font-family: sans-serif;
+	margin-bottom: 0;
+}
+
+div.people {
+	text-align: center;
+}
+
+img#wheel {
+	width: 50%;
+}

@@ -1,0 +1,33 @@
+article header.article-meta{
+    background-color: white;
+    background-image: url(../../media/genius/rock-shop/img5.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 650px;
+}
+
+.container {
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: -100px;
+	margin-right: -100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+figure {
+	width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}

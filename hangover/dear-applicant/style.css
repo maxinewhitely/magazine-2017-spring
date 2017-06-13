@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno');
+
+
+article header.article-meta{
+    background-image: url(dearappshort.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 800px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 800px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 250px;
+}
+
+.blackboard p {
+    font-family: cursive;
+    font-size: 1.4em;
+}
+
+.image-left-rescaler{
+    float: left;
+    margin-left: -100px;
+    padding-left: 20px;
+    width: 600px;
+    margin-right: 20px;
+}
+
+.image-right-rescaler{
+    float: right;
+    margin-right: -100px;
+    padding-right: 20px;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.dear {
+    margin-left: -20px;
+    margin-bottom: 0;
+}
+
+#dearbest {
+    margin-left: -20px;
+    margin-bottom: 0;
+}
+
+p#dearbest {
+    margin-bottom: .2em;
+    margin-bottom: 0;
+}
+
+p.dear {
+    margin-bottom: .2em;
+    font-size: 3em;
+    font-family: "Italianno";
+    margin-bottom: 0;
+}

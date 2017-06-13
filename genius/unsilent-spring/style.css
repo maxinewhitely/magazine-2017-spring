@@ -1,0 +1,23 @@
+article header.article-meta{
+    background-color: #A5A69D;
+    background-image: url(../../media/genius/unsilent-spring/trees.gif);
+    background-size: cover;
+    background-position: 30% 0;
+    height: 100%;
+    min-height: 600px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 650px;
+}
+
+
+p.subhead {
+	font-size: 1.5em;
+	font-family: "Raleway", sans-serif;
+	font-weight: bolder;
+	color: green;
+	margin-left: -50px;
+	margin-bottom: 0px;
+	border-bottom-style: solid;
+	margin-right: 10px;
+}

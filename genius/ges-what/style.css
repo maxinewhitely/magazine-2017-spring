@@ -1,0 +1,28 @@
+article header.article-meta{
+    background-color: #A5A69D;
+    background-image: url(../../media/genius/ges-what/img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 0;
+    height: 100%;
+    min-height: 1000px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding-top: 650px;
+}
+
+.image-left-rescaler{
+    float: left;
+    margin-left: -100px;
+    padding-left: 20px;
+    width: 600px;
+    margin-right: 20px;
+}
+
+.image-right-rescaler{
+    float: right;
+    margin-right: -100px;
+    padding-right: 20px;
+    width: 600px;
+    margin-left: 20px;
+}
